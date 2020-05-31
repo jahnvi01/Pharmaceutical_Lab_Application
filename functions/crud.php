@@ -31,7 +31,7 @@ if($fullname!==$name){
 }
 
 if (sizeof($errors) === 0) {
-$apiKey = urlencode('OofW+PcExAw-9LYehR9z5xBA6MEdYYavLustvtajHb');
+$apiKey = urlencode('');
 	
 	
 // Message details
