@@ -11,34 +11,10 @@ $cookieotp=$_COOKIE['otp']|| "";
 
 if(isset($_POST["send-otp"]))
 {
-  //  $username = "bndalwadi26@gmail.com";
-// 	$hash = "ffc2f4e5cd305dd611929ead7a6feb34689c070175843622e74ef3ae6813a80c";
-
-// 	// Config variables. Consult http://api.txtlocal.com/docs for more info.
-// 	$test = "0";
-// $name=$_POST["username"];
-
-// $otp=mt_rand(10000,100000);
-// 	// Data for text message. This is the text message data.
-// 	$sender = "API Test"; // This is who the message appears to be from.
-// 	$numbers = $_POST["contact"]; // A single number or a comma-seperated list of numbers
-// 	$message = "Enter". $otp."  OTP to verify your contact number";
-// 	// 612 chars or less
-//     // A single number or a comma-seperated list of numbers
-//     setcookie('otp',$otp);
-// 	$message = urlencode($message);
-// 	$data = "username=".$username."&hash=".$hash."&message=".$message."&sender=".$sender."&numbers=".$numbers."&test=".$test;
-// 	$ch = curl_init('http://api.txtlocal.com/send/?');
-// 	//curl_setopt($ch, CURLOPT_POST, true);
-// 	//curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-// 	//curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-//    // $result = curl_exec($ch); // This is the result from the API
-//     echo "<script>alert('$numbers')</script>";
-// 	curl_close($ch);
+ 
 
 
-
-$apiKey = urlencode('OofW+PcExAw-9LYehR9z5xBA6MEdYYavLustvtajHb');
+$apiKey = urlencode('');
 	
 	
 // Message details
